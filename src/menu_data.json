@@ -1,0 +1,91 @@
+{
+   "food": [
+        {
+            "title":"Soups",
+            "items": [
+                {"itemName" : "Sweet Corn", "price": "₹160"},
+                {"itemName" :"Manchow", "price": "₹160"},
+                {"itemName" :"Lemon Coriander", "price": "₹160"},
+                {"itemName" :"Burnt Garlic", "price": "₹160"},
+                {"itemName" :"Tom Kha", "price": "₹160"},
+                {"itemName" :"Shorba", "price": "₹160"}
+            ]
+        },
+        {
+            "title":"Dim Sum",
+            "items":[
+                {"itemName" :"Classic", "price":"₹230"},
+                {"itemName" :"Schezwan", "price":"₹230"},
+                {"itemName" :"Black Pepper", "price":"₹230"}]
+        },
+        {
+            "title":"Baos",
+            "items":[
+                {"itemName" :"Classic", "price":"₹250"}]
+        },
+        {
+            "title":"Bruschetta",
+            "items":[
+                {"itemName" :"Classic", "price":"₹200"},
+                {"itemName" :"Italian Mushroom", "price":"₹200"},
+                {"itemName" :"Roasted Chicken & Cheese", "price":"₹250"}
+            ]
+        },
+        {
+            "title":"Tandoori Appetizers",
+            "items":[
+                {"itemName" :"Hara Bhara Kebab", "price":"₹230"},
+                {"itemName" :"Tandoori Aloo", "price":"₹230"},
+                {"itemName" :"Mushroom Tikka", "price":"₹260"},
+                {"itemName" :"Paneer Tikka", "price":"₹260"},
+                {"itemName" :"Paneer Banjara Tikka", "price":"₹260"},
+                {"itemName" :"Paneer Lasooni Tikka", "price":"₹260"},
+                {"itemName" :"Paneer Tikka", "price":"₹260"},
+                {"itemName" :"Paneer Thecha Tikka", "price":"₹260"},
+                {"itemName" :"Paneer Tikka", "price":"₹260"},
+                {"itemName" :"Paneer Lapeta Kabab", "price":"₹280"},
+                {"itemName" :"Tandoori Lollipop", "price":"₹300"},
+                {"itemName" :"Basil Chicken Kebab", "price":"300"},
+                {"itemName" :"Murg Afghani Kebab", "price":"₹300"},
+                {"itemName" :"Murg Rozali Kebab", "price":"₹350"},
+                {"itemName" :"Murg Chilada Kebab", "price":"₹350"},
+                {"itemName" :"Murg Tangadi Kebab", "price":"₹350"},
+                {"itemName" :"Chicken Double Seekh Kebab", "price":"₹350"},
+                {"itemName" :"Tandoori Murg (H/F)", "price":"₹320"},
+                {"itemName" :"BBQ Roast Chicken (H/F)", "price":"₹320"}
+            ]
+        }
+    ],
+    "drinks": [
+        {
+            "title":"Mojitos",
+            "items":[
+                {"itemName" :"Virgin Mojito", "price":"₹230"},
+                {"itemName" :"Shirley Temple", "price":"₹250"},
+                {"itemName" :"Piña Colada Mocktail", "price":"₹280"},
+                {"itemName" :"Strawberry Lemonade", "price":"₹210"},
+                {"itemName" :"Virgin Margarita", "price":"₹230"},
+                {"itemName" :"Blueberry Mint Sparkler", "price":"₹270"},
+                {"itemName" :"Mango Mocktail", "price":"₹420"},
+                {"itemName" :"Sparkling Cranberry Punch", "price":"₹330"},
+                {"itemName" :"Coconut Water Mocktail", "price":"₹210"},
+                {"itemName" :"Cucumber Cooler", "price":"₹200"}
+            ]
+        },
+        {
+            "title":"Soft Beverages",
+            "items":[
+                {"itemName" :"Red Bull", "price":"₹190"},
+                {"itemName" :"Tonic Water", "price":"₹185"},
+                {"itemName" :"Diet Coke", "price":"₹120"},
+                {"itemName" :"Can Fruit Juice", "price":"₹110"},
+                {"itemName" :"Ice Tea (Lemon Or Peach)", "price":"₹130"},
+                {"itemName" :"Fresh Lime Soda / Water", "price":"₹95"},
+                {"itemName" :"Mineral Water", "price":"₹60"},
+                {"itemName" :"Soda", "price":"₹60"},
+                {"itemName" :"Soft Drink", "price":"₹80"},
+                {"itemName" :"Solkadhi", "price":"₹50"}
+            ]
+        }
+    ]   
+}

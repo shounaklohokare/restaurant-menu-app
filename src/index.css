@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+*::after, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.no-top-margin:not(:first-child) {
+  margin-top: -1.15rem;
+}
+
+@media (min-width: 768px) {
+  .no-top-margin:not(:first-child) {
+    margin-top: -2.775rem; 
+  }
+}
+
+@layer components{
+
+  .main-div{
+    @apply min-h-max flex-1 bg-[#f3ebde];
+  }
+
+  .name{
+    @apply nav-text font-bold text-2xl md:text-3xl my-auto px-5 md:px-16;
+  }
+
+  .nav-text{
+    @apply tracking-wider text-nowrap text-[#f5ba63];
+  }
+
+  .nav-items{
+    @apply flex font-semi-bold px-5 text-lg pt-[0.425rem] md:px-12 space-x-4 md:space-x-6 nav-text my-auto md:text-xl;
+  }
+
+  .navbar{
+    @apply flex justify-between absolute top-0 w-full h-24 bg-[#2c2b2a];
+  }
+
+  .logo{
+    @apply h-[6rem] m-auto w-[7.25rem];
+  }
+
+  .img-banner{
+    @apply h-[18rem] md:h-[22.5rem] bg-[url('/food3.jpg')] bg-center bg-no-repeat bg-cover w-full;
+  }
+
+  .drinks-img-banner{
+    @apply h-[18rem] md:h-[22.5rem] bg-[url('/mocktails.jpg')] bg-center bg-no-repeat bg-cover w-full;
+  }
+
+  .drinks-header{
+    @apply header text-gray-50 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)];
+  }
+
+  .header{
+    @apply text-6xl md:text-8xl xl:ml-12 2xl:ml-[11rem] 2xl:text-[7rem] font-extrabold  text-[#030303] tracking-wider font-serif absolute left-12 md:left-36 top-40 md:top-44 bg-transparent text-nowrap;
+  }
+
+  .menu-items-cont{
+     @apply mx-4 px-4 pb-12;
+  }
+
+  .menu-item-cont{
+    @apply  px-2 md:mt-16 mt-8 text-nowrap;
+  }
+
+  .menu-item-header{
+    @apply text-lg md:text-4xl font-bold text-center tracking-wide md:tracking-wider text-nowrap;
+  }
+
+  .ul-cont{
+    @apply mt-8 font-semi-bold text-left md:mt-12 tracking-wide font-sans md:gap-x-[28rem] flex flex-col md:text-[1.45rem] md:tracking-wide;
+  }
+
+  .menu-cont{
+    @apply flex flex-row justify-between my-1 md:my-2 md:mx-[3rem] lg:mx-[5rem] xl:tracking-wide xl:mx-[13rem] 2xl:mx-[25rem];
+  }
+/* 
+  .price-tag{
+    @apply ;
+  }
+
+  .item-name{
+    @apply ;
+  } */
+
+
+}
+
