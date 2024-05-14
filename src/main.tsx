@@ -7,12 +7,14 @@ import Food from './Food.tsx';
 import Navbar from './Navbar.tsx';
 import Drinks from './Drinks.tsx';
 import AboutUs from './AboutUs.tsx';
+import Footer from './Footer.tsx';
 
 const App = () => {
 
     return <div>
               <Navbar/>
               <Outlet/>
+              <Footer/>
           </div>
 
 }

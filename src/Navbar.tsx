@@ -1,15 +1,15 @@
 import { FC } from "react"
-import { Link } from "react-router-dom";
+import NavList from "./NavList";
+import { useMediaQuery } from 'react-responsive';
+import NavDropdown from "./NavDropdown";
 
 const Navbar:FC = () => { 
 
+    const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+
     return <div className="navbar">
                 <h3 className="name">Barnyard Bistro</h3>
-                <div className="nav-items">
-                    <h3><Link to="">Food</Link></h3>
-                    <h3><Link to="drinks">Drinks</Link></h3>
-                    <h3><Link to="aboutus">About Us</Link></h3>
-                </div>
+                { (isMobile) ? <NavDropdown/>: <NavList/>}
             </div> 
 }
 
