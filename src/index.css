@@ -25,11 +25,7 @@ body {
 @layer components{
 
   .main-div{
-    @apply min-h-max flex-1 bg-[#f3ebde] overflow-x-hidden;
-  }
-
-  .about-us-cont{
-    @apply bg-[#f3ebde] pb-6 font-sans min-h-screen text-xl text-gray-800 leading-relaxed md:text-2xl md:px-[5.75rem] tracking-wider pt-[7.5rem] px-8;
+    @apply min-h-max bg-[#f3ebde] overflow-x-hidden;
   }
 
   .name{
@@ -48,8 +44,8 @@ body {
     @apply flex justify-between absolute top-0 w-full h-24 bg-[#2c2b2a];
   }
 
-  .logo{
-    @apply h-[6rem] m-auto w-[7.25rem];
+  .dropdown{
+    @apply  bg-[#2c2b2a] flex flex-col p-4  text-[1.034rem] absolute top-[5.75rem] w-full right-[0.0rem] z-40 text-nowrap text-left ;
   }
 
   .img-banner{
@@ -88,8 +84,24 @@ body {
     @apply flex flex-row justify-between my-1 md:my-2 md:mx-[3rem] lg:mx-[5rem] xl:tracking-wide xl:mx-[13rem] 2xl:mx-[25rem];
   }
 
+  .about-us-header{
+    @apply text-2xl md:text-4xl md:mb-10 mb-6 font-semi-bold;
+  }
+
+  .about-us-cont{
+    @apply bg-[#f3ebde] font-sans h-screen md:text-[1.45rem] text-gray-800 leading-relaxed font-[400] md:px-[5.75rem] tracking-wider pt-[7.5rem] px-8;
+  }
+
   .footer{
-    @apply bottom-0 h-16 bg-[#2c2b2a];
+    @apply bottom-0 flex justify-center items-end text-sm h-[4.75rem] md:h-[6.225rem] bg-[#2c2b2a];
+  }
+
+  .footer-text{
+    @apply md:text-lg text-[#f5ba63] font-mono mb-4 cursor-default;
+  }
+
+  .error-page{
+    @apply text-2xl md:text-5xl font-mono flex min-h-screen items-center justify-center bg-[#f3ebde];
   }
 
 }

@@ -21,7 +21,10 @@
         {
             "title":"Baos",
             "items":[
-                {"itemName" :"Classic", "price":"₹250"}]
+                {"itemName" :"Classic", "price":"₹250"},
+                {"itemName" :"Salted Egg Yolk Bao:", "price":"₹270"},
+                {"itemName" :"Red Bean Bao", "price":"₹280"}
+            ]
         },
         {
             "title":"Bruschetta",
@@ -32,26 +35,15 @@
             ]
         },
         {
-            "title":"Tandoori Appetizers",
+            "title":"Appetizers",
             "items":[
-                {"itemName" :"Hara Bhara Kebab", "price":"₹230"},
-                {"itemName" :"Tandoori Aloo", "price":"₹230"},
-                {"itemName" :"Mushroom Tikka", "price":"₹260"},
-                {"itemName" :"Paneer Tikka", "price":"₹260"},
-                {"itemName" :"Paneer Banjara Tikka", "price":"₹260"},
-                {"itemName" :"Paneer Lasooni Tikka", "price":"₹260"},
-                {"itemName" :"Paneer Tikka", "price":"₹260"},
-                {"itemName" :"Paneer Thecha Tikka", "price":"₹260"},
-                {"itemName" :"Paneer Tikka", "price":"₹260"},
-                {"itemName" :"Paneer Lapeta Kabab", "price":"₹280"},
-                {"itemName" :"Tandoori Lollipop", "price":"₹300"},
-                {"itemName" :"Basil Chicken Kebab", "price":"300"},
-                {"itemName" :"Murg Afghani Kebab", "price":"₹300"},
-                {"itemName" :"Murg Rozali Kebab", "price":"₹350"},
-                {"itemName" :"Murg Chilada Kebab", "price":"₹350"},
-                {"itemName" :"Murg Tangadi Kebab", "price":"₹350"},
-                {"itemName" :"Chicken Double Seekh Kebab", "price":"₹350"},
-                {"itemName" :"Tandoori Murg (H/F)", "price":"₹320"},
+                {"itemName" :"Spinach and Artichoke Dip", "price":"₹260"},
+                {"itemName" :"Stuffed Mushrooms:", "price":"₹270"},
+                {"itemName" :"Deviled Eggs", "price":"₹260"},
+                {"itemName" :"Cucumber Canapés", "price":"₹260"},
+                {"itemName" :"Chicken Satay", "price":"₹260"},
+                {"itemName" :"Basil Chicken Kebab", "price":"₹300"},
+                {"itemName" :"Mozzarella Sticks", "price":"₹300"},
                 {"itemName" :"BBQ Roast Chicken (H/F)", "price":"₹320"}
             ]
         }

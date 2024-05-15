@@ -7,9 +7,12 @@ interface MenuItemProps {
 
 const MenuItem:FC<MenuItemProps> = ({ itemName, price }) => {
 
-
-    return <li><div className="menu-cont"><div className="item-name">{itemName}</div>
-    <div className="price-tag">{price}</div></div></li>
+    return <li>
+                <div className="menu-cont">
+                    <div>{itemName}</div>
+                    <div>{price}</div>
+                </div>
+           </li>
 
 }
 

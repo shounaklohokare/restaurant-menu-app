@@ -8,6 +8,7 @@ import Navbar from './Navbar.tsx';
 import Drinks from './Drinks.tsx';
 import AboutUs from './AboutUs.tsx';
 import Footer from './Footer.tsx';
+import Error from './Error.tsx';
 
 const App = () => {
 
@@ -34,7 +35,7 @@ const router = createBrowserRouter([{
         element: <AboutUs/>
     }
     ],
-    // errorElement: <Error/>
+    errorElement: <Error/>
   }
 ])
 
