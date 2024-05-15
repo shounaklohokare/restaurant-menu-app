@@ -22,7 +22,7 @@
             "title":"Baos",
             "items":[
                 {"itemName" :"Classic", "price":"₹250"},
-                {"itemName" :"Salted Egg Yolk Bao:", "price":"₹270"},
+                {"itemName" :"Salted Egg Yolk Bao", "price":"₹270"},
                 {"itemName" :"Red Bean Bao", "price":"₹280"}
             ]
         },
